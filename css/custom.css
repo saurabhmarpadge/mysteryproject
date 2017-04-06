@@ -1,0 +1,36 @@
+div#image img
+{
+    display: block;
+    margin: auto;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../img/preloader1.gif) center no-repeat #fff;
+}
+.up{
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+
+}
+.wide-container {
+  max-width: 1200px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
