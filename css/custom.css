@@ -1,12 +1,50 @@
-div#image img
-{
-    display: block;
-    margin: auto;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    position: fixed;
-    bottom: 0;
+div#image img{
+  display: block;
+  margin: 10% auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+}
 
+#main{
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+}
+#quote{
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+  text-align: center;
+}
+#quote p{
+  text-decoration: none;
+  font-family: Serif;
+  line-height: 75%;
+  font-size:20px;
+}
+#quote h1{
+  font-size: 40px;
+  text-decoration: none;
+  font-family: Serif;
+}
+#content{
+  float: left;
+  width:100%;
+  margin: 0 auto;
+  bottom: 0;
+  height: 25%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
 }
 
 .no-js #loader { display: none;  }
@@ -31,6 +69,22 @@ div#image img
 .wide-container {
   max-width: 1200px;
   height: 550px;
-  margin: 0 auto;
-  margin-top: 5%;
+  position: absolute;
+  margin: auto;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
 }
