@@ -40,11 +40,10 @@ div#image img{
   float: left;
   width:100%;
   margin: 0 auto;
-  bottom: 0;
   height: 25%;
   border-style: solid;
   border-width: 5px;
-  border-color: red;
+  border-color: white;
 }
 
 .no-js #loader { display: none;  }
@@ -87,4 +86,36 @@ div#image img{
   border-style: solid;
   border-width: 5px;
   border-color: red;
+}
+
+#galleryrow{
+  margin: 0 auto;
+  height: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#gallerycol{
+  width: 33.33%;
+  height: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+
+#gallerytable{
+  height:100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+#galleryimage{
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
 }
